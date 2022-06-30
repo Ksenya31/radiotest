@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="RadioTest" time="0.221" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="RadioTest" time="0.099" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.class.path" value="C:\Users\Ksenya\IdeaProjects\radiotest\target\test-classes;C:\Users\Ksenya\IdeaProjects\radiotest\target\classes;C:\Users\Ksenya\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\Ksenya\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\Ksenya\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Ksenya\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Ksenya\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\Ksenya\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\Ksenya\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\Ksenya\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
+    <property name="java.class.path" value="C:\Users\Ksenya\IdeaProjects\radiotest\target\test-classes;C:\Users\Ksenya\IdeaProjects\radiotest\target\classes;C:\Users\Ksenya\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\Ksenya\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\Ksenya\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Ksenya\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\Ksenya\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Ksenya\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\Ksenya\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\Ksenya\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Users\Ksenya\.jdks\openjdk-18.0.1.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Ksenya\AppData\Local\Temp\surefire1303052187187739284\surefirebooter11858103818012050540.jar C:\Users\Ksenya\AppData\Local\Temp\surefire1303052187187739284 2022-06-30T15-20-30_828-jvmRun1 surefire11849422327305649821tmp surefire_016255747468302670960tmp"/>
+    <property name="sun.java.command" value="C:\Users\Ksenya\AppData\Local\Temp\surefire12359910158928895647\surefirebooter2199301062043951700.jar C:\Users\Ksenya\AppData\Local\Temp\surefire12359910158928895647 2022-06-30T15-24-31_249-jvmRun1 surefire11989137844723425536tmp surefire_012535469492489618525tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\Ksenya\IdeaProjects\radiotest\target\test-classes;C:\Users\Ksenya\IdeaProjects\radiotest\target\classes;C:\Users\Ksenya\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\Ksenya\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\Ksenya\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Ksenya\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Ksenya\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\Ksenya\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\Ksenya\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\Ksenya\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\Ksenya\IdeaProjects\radiotest\target\test-classes;C:\Users\Ksenya\IdeaProjects\radiotest\target\classes;C:\Users\Ksenya\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\Ksenya\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\Ksenya\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Ksenya\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\Ksenya\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Ksenya\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\Ksenya\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\Ksenya\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Ksenya"/>
     <property name="user.language" value="ru"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Ksenya\AppData\Local\Temp\surefire1303052187187739284\surefirebooter11858103818012050540.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Ksenya\AppData\Local\Temp\surefire12359910158928895647\surefirebooter2199301062043951700.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="18.0.1.1+2-6"/>
@@ -57,10 +57,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="DicreseVolume" classname="RadioTest" time="0.078"/>
+  <testcase name="DicreseVolume" classname="RadioTest" time="0.053"/>
   <testcase name="VolRadio" classname="RadioTest" time="0"/>
-  <testcase name="PreviousStation" classname="RadioTest" time="0"/>
-  <testcase name="IncreaseVolume" classname="RadioTest" time="0.008"/>
-  <testcase name="NextStation" classname="RadioTest" time="0.012"/>
-  <testcase name="SetRadio" classname="RadioTest" time="0"/>
+  <testcase name="PreviousStation" classname="RadioTest" time="0.002"/>
+  <testcase name="IncreaseVolume" classname="RadioTest" time="0"/>
+  <testcase name="NextStation" classname="RadioTest" time="0.002"/>
+  <testcase name="SetRadio" classname="RadioTest" time="0.004"/>
 </testsuite>
