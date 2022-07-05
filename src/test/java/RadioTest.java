@@ -11,22 +11,6 @@ public class RadioTest {
         radio.setCurrentStation(8);
         assertEquals(8, radio.getCurrentStation());
     }
-    @Test
-    public void testMin() {
-        Radio radio = new Radio();
-        radio.setCurrentStation(9);
-        assertEquals(9, radio.getCurrentStation());
-    }
-    @Test
-    public void testNull() {
-        Radio radio = new Radio();
-        radio.setCurrentStation(0);
-        //int expected = 0;
-        //int actual = radio.getCurrentStation();
-
-        assertEquals(0, radio.getCurrentStation());
-    }
-
 
     @Test
     public void SetRadio() {
