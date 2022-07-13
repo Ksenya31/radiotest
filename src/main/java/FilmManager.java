@@ -1,12 +1,15 @@
 public class FilmManager {
     private String[] films = new String[0];
-    private int limit;
-    public FilmManager (){
+    private int limit = 10;
+
+    public FilmManager() {
         limit = 10;
     }
-    public FilmManager (int limit){
+
+    public FilmManager(int limit) {
         this.limit = limit;
     }
+
     public void add(String film) {
         String[] tmp = new String[films.length + 1];
         for (int i = 0; i < films.length; i++) {
@@ -20,15 +23,15 @@ public class FilmManager {
         return films;
     }
 
-    public String[] findLast(int limit) {
-        int resultlrngth;
+    public String[] findLast() {
+        int resultlength;
         if (films.length < limit) {
-            resultlrngth = films.length;
+            resultlength = films.length;
         } else {
-            resultlrngth = limit;
+            resultlength = limit;
         }
 
-        String[] tmp = new String[resultlrngth];
+        String[] tmp = new String[resultlength];
         for (int i = 0; i < tmp.length; i++) {
             tmp[i] = films[films.length - 1 - i];
 
